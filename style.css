@@ -12,6 +12,12 @@ header {
   background-color: white;
 }
 
+body {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 footer {
 	display: flex;
 	align-items: center;
@@ -49,6 +55,15 @@ span {
 
 div {
   /* border: 1px solid black; */
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Georgia;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
 }
 
 .logo {
@@ -145,9 +160,9 @@ nav span {
 }
 
 .image-content {
-	/* display: flex; */
-	/* flex-direction: column; */
-	/* justify-content: center; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	height: 300px;
 	margin-top: 15px;
 	font-family: Georgia;
@@ -165,8 +180,12 @@ nav span {
 	text-align: left;
 }
 
+.lead-story .image-content span {
+	margin-left: 20px;
+}
+
 .fall-cancelled.image-content {
-	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
 }
 
 .pop-culture.image-content {
